@@ -81,7 +81,6 @@ public class quizStart extends HttpServlet {
             // put results from api into a session
             session.setAttribute("api", api);
 
-
             RequestDispatcher dispatcher = req.getRequestDispatcher("/questions");
             dispatcher.forward(req, resp);
         } else {
