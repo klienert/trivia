@@ -4,19 +4,16 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/*
 *.iws
 *.iml
 *.ipr
 *.properties
-controller/Auth.java
-controller/LogIn.java
-src/main/.ebextensions
-src/main/.platform
-src/main/java/com/triviabuild/auth
+/src/main/java/com/triviabuild/controller/Auth.java
+/src/main/java/com/triviabuild/controller/LogIn.java
+/src/main/.platform/
+/src/main/.ebextensions/
+/src/main/java/com/triviabuild/auth/
 .gitignore
 
 ### Mac OS ###
