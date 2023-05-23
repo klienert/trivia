@@ -41,5 +41,6 @@
         <p class="text-center m-3 p-3"><a class="btn btn-primary" href="randomQuestion">Next Question</a></p>
 
     </div>
+    <%@include file="footer.jsp"%>
 </body>
 </html>

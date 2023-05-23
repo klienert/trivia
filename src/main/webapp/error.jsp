@@ -11,7 +11,8 @@
           <img src="images/220177-P1C5V8-657.jpg" class="rounded" alt="404 Error" width="800">
       </div>
 <%--    End funny--%>
+
   </div>
+  <%@include file="footer.jsp"%>
 </body>
 </html>
-w

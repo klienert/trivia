@@ -2,7 +2,6 @@
 <%@include file="taglib.jsp"%>
 <c:set var="title" value="Trivia Time!" />
 <%@include file="head.jsp"%>
-<script src="js/quiz.js"></script>
 <body>
 <div class="container">
     <%@include file="nav.jsp"%>
@@ -36,16 +35,6 @@
     <br />
     <small>${quiz}</small>
 
-
-    <%--    Answer buttons--%>
-<%--    <div class="row justify-content-center">--%>
-<%--        <c:forEach var = "i" items="${ans}">--%>
-<%--            <button class="btn btn-light col-2 m-2 p-2"--%>
-<%--                    value="<c:out value = "${i}"/>">--%>
-<%--                <c:out value = "${i}"/>--%>
-<%--            </button><br />--%>
-<%--        </c:forEach>--%>
-<%--    </div>--%>
     <hr>
 
     <div class="row justify-content-center">

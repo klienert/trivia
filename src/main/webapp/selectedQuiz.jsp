@@ -31,15 +31,8 @@
                 <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
             </div>
         </div>
-
-
     </c:if>
-
-
-
-
-
-
 </body>
+    <%@include file="footer.jsp"%>
 </div>
 </html>

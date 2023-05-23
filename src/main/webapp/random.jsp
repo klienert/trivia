@@ -33,7 +33,10 @@
             </form>
         </div>
         <hr>
+
     </div>
+
 </div>
+<%@include file="footer.jsp"%>
 </body>
 </html>

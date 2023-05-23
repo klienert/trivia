@@ -2,18 +2,6 @@
 <%@include file="taglib.jsp"%>
 <c:set var="title" value="Selected Trivia Answers" />
 <%@include file="head.jsp"%>
-<style>
-    #ans {
-        animation: fadeInAnimation ease 3s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-    }
-
-    @keyframes fadeInAnimation {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
-    }
-</style>
 <body>
     <div class="container">
         <%@include file="nav.jsp"%>
@@ -45,10 +33,7 @@
         <c:if test="${gameOver == false}">
             <p class="text-center m-3 p-3"><a class="btn btn-primary" href="questions">Next Question</a></p>
         </c:if>
-
-
-
-
     </div>
+    <%@include file="footer.jsp"%>
 </body>
 </html>
