@@ -14,8 +14,8 @@ target/
 *.properties
 controller/Auth.java
 controller/LogIn.java
-src/main/.ebextensions/
-src/main/.platform/
+src/main/.ebextensions
+src/main/.platform
 src/main/java/com/triviabuild/auth
 .gitignore
 
