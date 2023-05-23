@@ -14,8 +14,9 @@ target/
 *.properties
 controller/Auth.java
 controller/LogIn.java
-main/.ebextensions/
-main/.platform/
+.ebextensions/
+.platform/
+.gitignore
 
 ### Mac OS ###
 .DS_Store
