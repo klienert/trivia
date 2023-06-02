@@ -14,7 +14,6 @@ target/
 /src/main/.platform/
 /src/main/.ebextensions/
 /src/main/java/com/triviabuild/auth/
-.gitignore
 
 ### Mac OS ###
 .DS_Store
