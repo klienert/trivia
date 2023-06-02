@@ -12,8 +12,8 @@ target/
 /src/main/java/com/triviabuild/controller/Auth.java
 /src/main/java/com/triviabuild/controller/LogIn.java
 /src/main/.platform/
-/src/main/.ebextensions/
-/src/main/java/com/triviabuild/auth/
+/src/main/.ebextensions
+/src/main/java/com/triviabuild/auth
 
 ### Mac OS ###
 .DS_Store
