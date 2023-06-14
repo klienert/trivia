@@ -9,7 +9,7 @@ target/
 *.iml
 *.ipr
 *.properties
-/src/main/resources/
+/src/main/resources
 /src/main/java/com/triviabuild/controller/Auth.java
 /src/main/java/com/triviabuild/controller/LogIn.java
 /src/main/.platform/
